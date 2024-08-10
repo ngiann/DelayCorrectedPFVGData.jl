@@ -5,8 +5,13 @@
 ## ℹ What is this?
 This repository contains the data for the via the [DelayCorrectedPFVG.jl](https://github.com/HITS-AIN/DelayCorrectedPFVG.jl) repository.
 
+## 💾 Installation 
 
-## For AIN maintainers
+This package is registered with [AINJuliaRegistry](https://github.com/HITS-AIN/AINJuliaRegistry).
+Please add `AINJuliaRegistry` in order to use package.
+Install with `add DelayCorrectedPFVGData` in package mode once `AINJuliaRegistry` has been added to your Julia installation.
+
+## 🛠 Note for HITS-AIN maintainers
 
 To add a new source:
 - create a new folder under src/Data and give it a name e.g. "3C120".
