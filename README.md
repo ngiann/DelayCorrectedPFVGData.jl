@@ -34,6 +34,8 @@ figure(1) ; cla()
 for i in 1:length(days)
   errorbar(days[i], flux[i], yerr=stdflux[i], fmt="o")
 end
+
+display(galaxyvector)
 ```
 
 ## 🛠 Note for HITS-AIN maintainers
