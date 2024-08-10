@@ -3,7 +3,7 @@
 
 
 ## ℹ What is this?
-This repository contains the data for the via the [DelayCorrectedPFVG.jl]([https://github.com/HITS-AIN/GPCC.jl](https://github.com/HITS-AIN/DelayCorrectedPFVG.jl) repository.
+This repository contains the data for the via the [DelayCorrectedPFVG.jl](https://github.com/HITS-AIN/DelayCorrectedPFVG.jl) repository.
 
 
 ## For AIN maintainers
