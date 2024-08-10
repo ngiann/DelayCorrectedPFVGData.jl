@@ -27,15 +27,19 @@ See a brief description in "help mode" with e.g. ?readdataset.
 using DelayCorrectedPFVGData
 using PyPlot # must be independently installed
 
-days, flux, stdflux, galaxyvector = readdataset(source="3C120")
+for source in listdatasets()
 
-figure(1) ; cla()
+  days, flux, stdflux, galaxyvector = readdataset(source = source)
+  
+  figure()
+  
+  for i in 1:length(days)
+    errorbar(days[i], flux[i], yerr=stdflux[i], fmt="o")
+  end
+  
+  display(galaxyvector)
 
-for i in 1:length(days)
-  errorbar(days[i], flux[i], yerr=stdflux[i], fmt="o")
 end
-
-display(galaxyvector)
 ```
 
 ## 🛠 Note for HITS-AIN maintainers
